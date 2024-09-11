@@ -42,3 +42,5 @@ font= ImageFont.load_default()
 im_show= draw_ocr(image, bounding_boxes, text, scores, font_path='/content/dejavu-sans-bold.ttf')
 im_show= Image.fromarray(im_show)
 im_show.save('output.jpg')
+
+# To be continued ..........
